@@ -1,4 +1,4 @@
-fing_package(GTest REQUIRED)
+find_package(GTest REQUIRED)
 
 add_executable(test_normal_distribution test_normal_distribution.cpp)
 target_link_libraries(test_normal_distribution cpp_finance_utils GTest::GTest GTest::Main)
