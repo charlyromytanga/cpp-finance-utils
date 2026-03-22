@@ -1,0 +1,2 @@
+add_executable(benchmark_normal_distribution benchmark_normal_distribution.cpp)
+target_link_libraries(benchmar_normal_disitribution cpp_finance_utils)
